@@ -1,6 +1,5 @@
 Carnegie Mellon University, Human-Computer Interaction Institute.
 Copyright 2015. All Rights Reserved.
-Author: Mike Komisin
 
 
 General dependencies
@@ -14,8 +13,11 @@ General dependencies
 Downloading the example project
 
 4. Clone the git repository:
-	cd /cygdrive/c/your_workspace
-	git clone https://github.com/datashop-manager/ToolTemplate.git ToolTemplate
+
+        cd /cygdrive/c/your_workspace
+        git clone https://github.com/datashop-manager/ToolTemplate.git ToolTemplate
+
+5. Modify line 13 in source/ToolMain.java to point to the correct path for your R installation.
 
 
 
@@ -38,4 +40,3 @@ Cygwin
 
 
 *Note: Project tested with latest R (3.2.1), Ant 1.9.4+, and the Java EE 7 SDK
-

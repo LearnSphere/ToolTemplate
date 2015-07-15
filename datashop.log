@@ -1,0 +1,40 @@
+FATAL: [main] MAIN 15 Jul 2015 08:47:33,891 - Running main.
+FATAL: [main] MAIN 15 Jul 2015 08:47:33,891 - 
+FATAL: [main] MAIN 15 Jul 2015 08:49:16,134 - Running main.
+FATAL: [main] MAIN 15 Jul 2015 08:49:16,134 - 
+FATAL: [main] MAIN 15 Jul 2015 08:49:32,280 - Running main.
+FATAL: [main] MAIN 15 Jul 2015 08:49:32,280 - 
+FATAL: [main] MAIN 15 Jul 2015 08:49:57,911 - Running main.
+FATAL: [main] MAIN 15 Jul 2015 08:49:57,911 - 
+FATAL: [main] MAIN 15 Jul 2015 08:50:14,478 - Running main.
+FATAL: [main] MAIN 15 Jul 2015 08:50:14,478 - 
+INFO: [main] MAIN 15 Jul 2015 08:50:20,047 - Running main.
+FATAL: [main] MAIN 15 Jul 2015 08:50:20,047 - 
+FATAL: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 08:51:42,745 - Executing process.
+FATAL: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 08:51:55,225 - Executing process.
+DEBUG: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 08:59:14,773 - Executing process: C:/R-3.2.1/bin/Rscript.exe extern/helloWorld.r
+DEBUG: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 08:59:27,924 - Executing process: C:/R-3.2.1/bin/Rscript.exe fextern/helloWorld.r
+DEBUG: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 08:59:37,783 - Executing process: C:/R-3.2.1/bin/Rscript.exe extern/helloWorld.r
+DEBUG: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 09:08:00,248 - Executing process: C:/R-3.2.1/bin/Rscript.exe extern/helloWorld.r
+DEBUG: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 09:13:29,340 - Executing process: C:/R-3.2.1/bin/Rscript.exe extern/helloWorld.r
+DEBUG: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 09:26:22,973 - Executing process: [C:/R-3.2.1/bin/Rscript.exe, extern/helloWorld.r, 2010-01-28, example, 100]
+FATAL: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 09:27:31,601 - Executing process: [C:/R-3.2.1/bin/Rscript.exe, extern/helloWorld.r, 2010-01-28, example, 100]
+FATAL: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 09:27:59,900 - Executing process: [C:/R-3.2.1/bin/Rscript.exe, extern/helloWorld.r, 2010-01-28, example, 100]
+FATAL: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 09:28:56,856 - Executing process: [C:/R-3.2.1/bin/Rscript.exe, extern/helloWorld.r, 2010-01-28, example, 100]
+FATAL: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 09:29:26,621 - Executing process: [C:/R-3.2.1/bin/Rscript.exe, extern/helloWorld.r, 2010-01-28, example, 100]
+FATAL: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 09:30:08,710 - Executing process: [C:/R-3.2.1/bin/Rscript.exe, extern/helloWorld.r, 2015-01-01, imageOutputName, 100]
+INFO: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 09:31:02,281 - Executing process: [C:/R-3.2.1/bin/Rscript.exe, extern/helloWorld.r, 2015-01-01, imageOutputName, 100]
+INFO: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 09:31:11,844 - Executing process: [C:/R-3.2.1/bin/Rscript.exe, extern/helloWorld.r, 2015-01-01, imageOutputName, 100]
+INFO: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 09:32:17,817 - Executing process: [C:/R-3.2.1/bin/Rscript.exe, extern/helloWorld.r, 2015-01-01, imageOutputName, 100]
+INFO: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 09:32:28,799 - Executing process: [C:/R-3.2.1/bin/Rscript.exe, extern/helloWorld.r, 2015-01-01, imageOutputName, 100]
+INFO: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 09:35:02,542 - Executing process: [C:/R-3.2.1/bin/Rscript.exe, extern/helloWorld.r, 2015-01-01, imageOutputName, 100]
+INFO: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 09:41:29,721 - Executing process: [C:/R-3.2.1/bin/Rscript.exe, extern/helloWorld.r, 2015-01-01, imageOutputName, 100]
+INFO: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 09:41:38,161 - Executing process: [C:/R-3.2.1/bin/Rscript.exe, extern/helloWorld.r, 2015-01-01, imageOutputName, 100]
+INFO: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 09:43:58,125 - Executing process: [C:/R-3.2.1/bin/Rscript.exe, extern/helloWorld.r, 2015-01-01, imageOutputName, 100]
+INFO: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 09:44:49,618 - Executing process: [C:/R-3.2.1/bin/Rscript.exe, extern/helloWorld.r, 2015-01-01, imageOutputName, 100]
+INFO: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 09:45:49,746 - Executing process: [C:/R-3.2.1/bin/Rscript.exe, extern/helloWorld.r, 2015-01-01, imageOutputName, 100]
+INFO: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 09:46:17,436 - Executing process: [C:/R-3.2.1/bin/Rscript.exe, extern/helloWorld.r, 2015-01-01, imageOutputName, 100]
+INFO: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 09:46:58,434 - Executing process: [C:/R-3.2.1/bin/Rscript.exe, extern/helloWorld.r, 2015-01-01, imageOutputName, 100]
+INFO: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 09:47:10,353 - Executing process: [C:/R-3.2.1/bin/Rscript.exe, extern/helloWorld.r, 2015-01-01, imageOutputName, 100]
+INFO: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 09:47:44,938 - Executing process: [C:/R-3.2.1/bin/Rscript.exe, extern/helloWorld.r, 2015-01-01, imageOutputName, 100]
+INFO: [main] edu.cmu.pslc.datashoptool.ToolWrapper 15 Jul 2015 09:48:38,571 - Executing process: [C:/R-3.2.1/bin/Rscript.exe, extern/helloWorld.r, 2015-01-01, imageOutputName, 100]

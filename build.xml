@@ -1,0 +1,92 @@
+<project name="ToolTemplate" default="dist" basedir=".">
+    <description>
+        Generic wrapper for an external R program.
+    </description>
+
+    <!-- set global properties for this build -->
+    <property file="build.properties"/>
+    <property name="source"      location="${basedir}/source"/>
+    <property name="build"    location="${basedir}/build"/>
+    <property name="dist"     location="${basedir}/dist"/>
+    <property name="lib"   location="${basedir}/lib"/>
+    <property name="javadoc"  location="${basedir}/javadoc"/>
+
+    <property name="version"  value="1.0"/>
+    <property name="ToolTemplate.jar"  value="${dist}/ToolTemplate-${version}.jar"/>
+
+    <property name="component.title"     value="ToolTemplate"/>
+    <property name="component.version"   value="v${version} 2015"/>
+
+    <path id="lib.path">
+        <fileset dir="${lib}">
+            <include name="**/**.jar"/>
+        </fileset>
+    </path>
+
+    <path id="run.classpath">
+    <pathelement path="${ToolTemplate.jar}"/>
+        <path refid="lib.path"/>
+        <pathelement path="."/>
+    </path>
+
+    <target name="init">
+        <!-- Create the time stamp in DSTAMP -->
+        <tstamp/>
+        <!-- Create the build directory structure used by compile -->
+        <mkdir dir="${build}"/>
+        <mkdir dir="${dist}"/>
+    </target>
+
+    <target name="compile" depends="init" description="compile the source " >
+        <!-- Compile the java code from ${source} into ${build} -->
+        <javac srcdir="${source}" destdir="${build}" debug="on">
+            <classpath refid="lib.path"/>
+        </javac>
+    </target>
+
+    <target name="dist" depends="compile" description="generate the distribution" >
+        <!-- Create the distribution directory -->
+        <mkdir dir="${dist}"/>
+
+        <!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
+        <jar jarfile="${ToolTemplate.jar}" basedir="${build}"/>
+    </target>
+
+    <!-- Delete the temporary directories. -->
+    <target name="clean" description="clean up" >
+        <delete dir="${build}"/>
+        <delete dir="${dist}"/>
+        <delete dir="${javadoc}"/>
+    </target>
+
+    <target name="javadoc" depends="compile"  description="Create javadoc documentation">
+        <mkdir dir="${javadoc}"/>
+        <javadoc sourcepath="${source}"
+                 destdir="${javadoc}"
+                 packagenames="*.*"
+                 author="true" private="true" version="true"
+                 doctitle="&lt;h1&gt;${component.title} (Version ${component.version})&lt;/h1&gt;"
+                 windowtitle="${component.title} (Version ${component.version})"
+                 >
+            <classpath refid="lib.path"/>
+        </javadoc>
+    </target>
+
+    <target name="runToolTemplate" depends="clean, compile, dist"
+    description="executes ToolTemplate">
+        <java classname="edu.cmu.pslc.datashoptool.ToolMain" fork="true">
+            <classpath refid="run.classpath"/>
+            <!-- <arg value="-dataset"/>
+            <arg value="76"/>
+            <arg value="-model"/>
+            <arg value="Geometry"/>
+            <arg value="-root"/>
+            <arg value="https://pslcdatashop.web.cmu.edu"/>
+            <arg value="-apitoken"/>
+            <arg value="1916T973C9P22Q62O2TY"/>
+            <arg value="-secret"/>
+            <arg value="CaVrxnZ7JGKLUpwJFM1Ye8N3zT5omwylv8OtPiCh"/> -->
+
+        </java>
+    </target>
+</project>
